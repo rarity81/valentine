@@ -68,7 +68,7 @@ function Tour() {
   const onHeart = async () => {
     setClick(!isClick)
     await sleep(1000)
-    navigate("/series");
+    navigate("/1");
   }
 
   const onLeave = async () => {

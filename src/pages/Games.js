@@ -49,7 +49,7 @@ function Games() {
   const onHeart = async () => {
     setClick(!isClick)
     await sleep(1000)
-    navigate("/valentine");
+    navigate("/3");
   }
   const onLeave = async () => {
     await sleep(1000)

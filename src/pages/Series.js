@@ -66,7 +66,7 @@ class Navigation extends React.Component {
 class HeroButton extends React.Component {
   render() {
     return (
-        <a href="/games" className="Button" data-primary={this.props.primary}>{this.props.text}</a>
+        <a href="/2" className="Button" data-primary={this.props.primary}>{this.props.text}</a>
     );
   }
 }
@@ -202,7 +202,7 @@ function Series() {
   const onHeart = async () => {
     setClick(!isClick)
     await sleep(1000)
-    navigate("/games");
+    navigate("/2");
   }
   const onLeave = async () => {
     await sleep(1000)
