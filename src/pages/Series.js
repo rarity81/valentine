@@ -63,12 +63,18 @@ class Navigation extends React.Component {
 
 
 // Hero Button 
-class HeroButton extends React.Component {
-  render() {
-    return (
-        <a href="/2" className="Button" data-primary={this.props.primary}>{this.props.text}</a>
-    );
+function HeroButton(props) {
+
+  let navigate = useNavigate();
+
+  const onHeart = async () => {
+    navigate("/2");
   }
+
+  return (
+      <Button onClick={onHeart}  className="Button" data-primary={props.primary}>{props.text}</Button>
+  );
+
 }
 
 /////////// Title List ///////////
@@ -226,6 +232,7 @@ function Series() {
         <TitleList title="Лучший хоррор (с закрытыми глазами)" url='genre/27/movies?sort_by=popularity.desc&page=1'/>
         <TitleList title="10 частей елок для отличного сна" url='genre/878/movies?sort_by=popularity.desc&page=1'/>
         <TitleList title="(пожалуйста только не) Мьюзиклы" url='genre/35/movies?sort_by=popularity.desc&page=1'/>
+
         <HeroButton primary={true} text="Будешь смотреть вместе со мной кино?" onClick={onHeart}/>
 
       </div>
