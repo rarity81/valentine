@@ -1,0 +1,51 @@
+{
+  "name": "valentine",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "express": "^4.18.2",
+    "let-it-go": "^1.0.0",
+    "react": "^18.2.0",
+    "react-animated-heart": "0.0.8",
+    "react-atv-parallax": "^1.0.2",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18.2.0",
+    "react-grid-gallery": "^1.0.1-alpha.0",
+    "react-image-grid-gallery": "^2.0.1",
+    "react-photo-gallery": "^8.0.0",
+    "react-responsive-masonry": "^2.1.7",
+    "react-router-dom": "^6.22.0",
+    "react-scripts": "5.0.1",
+    "react-snow-effect": "^1.2.0",
+    "react-snowfall": "^2.1.0",
+    "react-snowstorm": "0.0.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
